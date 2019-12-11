@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Socket Demo</title>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <h1>Websockt Demo</h1>
+
+      <div id="status">
+        Connecting...
+      </div>
+
+      <ul id="messages"></ul>
+
+      <form action="#" method="POST" id="message-form">
+        <textarea
+          id="message"
+          placeholder="Write your message here..."
+          required
+        ></textarea>
+        <button type="submit">Send Message</button>
+        <button type="button" id="close">Close Connection</button>
+      </form>
+    </div>
+  </body>
+</html>
